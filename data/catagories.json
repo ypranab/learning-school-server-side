@@ -1,0 +1,34 @@
+[
+    {
+      "id": "01",
+      "name": "HTML-5"
+    },
+    {
+      "id": "02",
+      "name": "Vanila CSS"
+    },
+    {
+      "id": "03",
+      "name": "Bootstrap"
+    },
+    {
+      "id": "04",
+      "name": "Tailwind"
+    },
+    {
+      "id": "05",
+      "name": "JavaScript"
+    },
+    {
+      "id": "06",
+      "name": "React-js"
+    },
+    {
+      "id": "07",
+      "name": "Node-js"
+    },
+    {
+      "id": "08",
+      "name": "All Courses"
+    }
+  ]
