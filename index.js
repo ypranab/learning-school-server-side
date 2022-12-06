@@ -5,15 +5,15 @@ const port = process.env.PORT || 5000;
 
 app.use(cors());
 
-const catagories = require('./data/catagories.json');
+const categories = require('./data/categories.json');
 const courses = require('./data/courses.json');
 
 app.get('/', (req, res) => {
     res.send('Learning API is Running');
 });
 
-app.get('/course-catagories', (req, res) => {
-    res.send(catagories)
+app.get('/course-categories', (req, res) => {
+    res.send(categories)
 });
 
 app.get('/course/:id',(req,res)=>{
@@ -26,14 +26,14 @@ app.get('/course',(req,res)=>{
 	res.send(courses);
 })
 
-app.get('/catagory/:id',(req,res)=>{
+app.get('/category/:id',(req,res)=>{
   const id = req.params.id;
   if(id==='08'){
     res.send(courses);
   }
   else{
-    const catagoryCourses = news.filter(item => item.catagory_id === id);
-    res.send(catagoryCourses);
+    const categoryCourses = courses.filter(item => item.category_id === id);
+    res.send(categoryCourses);
   }
 })
 

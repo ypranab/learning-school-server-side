@@ -1,0 +1,37 @@
+[
+  {
+    "id": "01",
+    "name": "HTML-5",
+    "image_url": "https://cdn-icons-png.flaticon.com/512/888/888859.png"
+  },
+  {
+    "id": "02",
+    "name": "Vanila CSS",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYoObrmCsyjTvvq9SY6Cx9LRgqPA0OoQfhpOa_Kqcv_GIco_wIEs0SelofH6dt7Hkxub4&usqp=CAU"
+  },
+  {
+    "id": "03",
+    "name": "Bootstrap",
+    "image_url": "https://static.javatpoint.com/bootstrappages/images/bootstrap-tutorial.png"
+  },
+  {
+    "id": "04",
+    "name": "Tailwind",
+    "image_url": "https://res.cloudinary.com/arcjet-media/image/upload/v1608734952/z8hzeszc9eb3sp3vp3qc.jpg"
+  },
+  {
+    "id": "05",
+    "name": "JavaScript",
+    "image_url": "https://www.computerhope.com/jargon/j/javascript.png"
+  },
+  {
+    "id": "06",
+    "name": "React-js",
+    "image_url": "https://www.datocms-assets.com/45470/1631110818-logo-react-js.png"
+  },
+  {
+    "id": "07",
+    "name": "Node-js",
+    "image_url": "https://nodejs.org/static/images/logo-hexagon-card.png"
+  }
+]
